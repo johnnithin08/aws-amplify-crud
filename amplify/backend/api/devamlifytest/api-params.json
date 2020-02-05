@@ -1,0 +1,34 @@
+{
+    "paths": [
+        {
+            "name": "/items",
+            "lambdaFunction": "devamplifytest",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "devamlifytest",
+    "apiName": "devamlifytest",
+    "functionArns": [
+        {
+            "lambdaFunction": "devamplifytest"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-dev-amplify-test-2-dev-134005-authRole",
+        "unAuthRoleName": "amplify-dev-amplify-test-2-dev-134005-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "devamplifytest",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

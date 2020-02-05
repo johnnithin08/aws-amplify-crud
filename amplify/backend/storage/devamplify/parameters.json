@@ -1,0 +1,5 @@
+{
+    "tableName": "devamplify",
+    "partitionKeyName": "id",
+    "partitionKeyType": "N"
+}
